@@ -1,5 +1,8 @@
 # deli-starter
-DeliDish start
+
+DeliDish start code.
+Er kunnen nog verduidelijkingen aan de code toegevoegd worden, dus voor wie niet bang is van git, kan nuttig zijn je lokale code soms te updaten met deze uit de repository (*^T* of *VCS>Update Project* in IntelliJ.
+
 ## Stap 1: Maak jezelf vertrouwd met de structuur
 
 Download het project en open het in intelliJ (gebruik intelliJ ultimate en gebruik je e-mail adres voor het aanvragen van een licentie) . Indien nodig stel je nog de java SDK in. Gebruik Java 8
