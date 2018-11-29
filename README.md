@@ -1,7 +1,7 @@
 # deli-starter
 
 DeliDish start code.
-Er kunnen nog verduidelijkingen aan de code toegevoegd worden, dus voor wie niet bang is van git, kan nuttig zijn je lokale code soms te updaten met deze uit de repository (*^T* of *VCS>Update Project* in IntelliJ.
+Er kunnen nog verduidelijkingen aan de code toegevoegd worden, dus voor wie niet bang is van git, kan nuttig zijn je lokale code soms te updaten met deze uit de repository (*^T* of *VCS>Update Project* in IntelliJ).
 
 ## Stap 1: Maak jezelf vertrouwd met de structuur
 
