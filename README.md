@@ -9,9 +9,11 @@ Als dat niet lukt en je weet niet hoe het wel moet lukken vraag dat dan aan de d
 ## Stap 3: Bekijk in de test.be.kdg.deliDish.application de klasse DeliveryControllerTest.java
 
 Dit is de klasse waarin tests zijn opgenomen. Als je op play drukt zijn het deze tests die worden uitgevoerd. Lees de comments om beter te begrijpen hoe de tests werken. Alle code onder de testpackage maken geen onderdeel van de eigenlijke applicatie. Deze package dient gewoon om testen uit te werken op de applicatie.
+
 ##Stap 4: Bekijk in de test.be.kdg.deliDish.application de klasse TestData.
 
 Deze klasse bevat alle testdata. Deze moet dus in de setUp() methode gebruikt worden om het systeem te initiëren. Eigenlijk zou je aan deze klasse geen wijzigingen mogen doen omdat dan de Testen niet meer werken. Als je toch andere constructors in je code wil gebruiken, dan mag je (hoewel afgeraden) de code hierop aanpassen.
+
 ##Stap 5: Werk de TODO's uit voor opdracht 4
 
 Als je de tests helemaal door hebt kan je beginnen aan de code en aan de diagrammen. Het einddoel bij de tweede oplevering is vanuit de DeliveryControllerTest class de test getAvailableDeliveries() en selectDelivery() op groen te krijgen bij het runnen (met achterliggend mooi ontworpen code).
