@@ -76,7 +76,8 @@ public class DeliveryControllerTest {
     //TODO (Week 4-5) uncomment test selectDelivery
    @Test
     void selectDelivery() {
-         int orderID = ctrl.getAvailableDeliveries().stream().findFirst().get().getOrderID();
+	   ctrl.setAppUser(ctrl.getCouriers().stream().filter(u -> u.getFirstName().equals("Frits")).findFirst().get());
+	   int orderID = ctrl.getAvailableDeliveries().stream().findFirst().get().getOrderID();
         Order selectedOrder = ctrl.selectDelivery(orderID);
         assertEquals(selectedOrder.getDeliverer(), ctrl.getAppUser());
         assertEquals(ctrl.getDeliveryPointsTotal(ctrl.getAppUser()), 501 + 5);
