@@ -87,6 +87,7 @@ public class DeliveryControllerTest {
     //TODO (Week 4-5): De volgende twee methoden kunnen optioneel worden uitgewerkt:  uncomment test registerDeliveryPickup en registerSuccesfullDelivery
   /*  @Test
     void registerDeliveryPickup() {
+    	   ctrl.setAppUser(ctrl.getCouriers().stream().filter(u -> u.getFirstName().equals("Frits")).findFirst().get());
         int orderID = ctrl.getAvailableDeliveries().stream().findFirst().get().getOrderID();
         Order selectedOrder = ctrl.selectDelivery(orderID);
         selectedOrder = ctrl.registerDeliveryPickup(orderID);
@@ -96,6 +97,7 @@ public class DeliveryControllerTest {
 
 /*    @Test
     void registerSuccesfullDelivery() {
+    	   ctrl.setAppUser(ctrl.getCouriers().stream().filter(u -> u.getFirstName().equals("Frits")).findFirst().get());
         int orderID = ctrl.getAvailableDeliveries().stream().findFirst().get().getOrderID();
         Order selectedOrder = ctrl.selectDelivery(orderID);
         selectedOrder = ctrl.registerDeliveryPickup(orderID);
